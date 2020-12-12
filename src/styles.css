@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap");
+
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: beige;
+}
+
+:root {
+  --primary-color: #fffaa4;
+  --background: #d1c818;
+  --text-color: #54e346;
+  --button-color: #1b61ee;
+  --secondary-color: #0e49b5;
+}
+
+.nav {
+  border: 0px solid;
+  border-radius: 5px;
+  background-color: #071606;
+  display: inline-block;
+  padding-inline: 11rem;
+}
+
+#genre {
+  background: var(--button-color);
+  border: 0;
+  color: white;
+  border-radius: 8px;
+  padding: 0.8rem;
+  margin: 0.8rem;
+  font-size: 1em;
+}
+
+.title {
+  color: var(--text-color);
+}
+
+.headings {
+  color: var(--secondary-color);
+  font-weight: 400;
+}
+
+.Card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 2rem 20%;
+  border-radius: 8px;
+}
+
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardInfo {
+  padding: 2px 14px;
+  color: var(--button-color);
+}
+.links {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.image {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+a button {
+  border-radius: 5px;
+  border: 0;
+  background-color: var(--text-color);
+  padding: 0.4rem 1.2rem;
+  margin-bottom: 10px;
+}
